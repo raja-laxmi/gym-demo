@@ -1337,3 +1337,65 @@ justify-content:center;
 }
 
 }
+
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+
+    .navbar{
+        flex-direction: column;
+        padding:15px;
+    }
+
+    .logo{
+        font-size:28px;
+        margin-bottom:15px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .join-btn{
+        margin-top:15px;
+    }
+
+    .content h1{
+        font-size:48px;
+        line-height:1.2;
+    }
+
+    .content p{
+        font-size:20px;
+    }
+
+    .btn{
+        width:90%;
+        text-align:center;
+    }
+
+    .BMI-calculator form{
+        width:100%;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .membership-item,
+    .trainer-item{
+        width:100%;
+    }
+
+    .whatsapp,
+    .instagram{
+        width:55px;
+        height:55px;
+        font-size:28px;
+    }
+}
